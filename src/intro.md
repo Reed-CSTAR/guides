@@ -1,0 +1,27 @@
+# Intro
+
+> These guides are not done! Not remotely!
+
+Welcome to CS at Reed! You'll be doing a lot of computer touching during your
+time here, and we wanted to put together some resources to make this as pleasant
+an experience as it can possibly be.
+
+There are very many bits and pieces of software that you'll want to pick up and
+get used to along the way, but the vast majority of these tools can be
+unintuitive and frustrating. Here, we've collated a lot of words to hopefully
+make that experience easier.
+
+This site covers a few core topics with copy-pastable snippets and explanations
+for reference, but if something isn't here, or if you just want some more
+information on anything, there are some *really good* resources on the broader
+internet. If you've got questions about how anything techy works, you might want
+to consult:
+
++ Julia Evans! She's really good at [writing zines](https://wizardzines.com/).
++ man pages :(
+
+As a final introductory note, don't be afraid to ask for help. A lot of
+computer-touching knowledge is really just experience. The more times you see
+something, the more likely it'll be to click.
+
+Also, if you have questions, yell at us! \[TODO: contact info\]
