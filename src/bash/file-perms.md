@@ -128,7 +128,7 @@ directory can `cd` into it.
 This permission system would only be so useful if you couldn't change
 permissions. Fortunately, you can use the `chmod` command to change permissions.
 While there's some more advanced usages we won't cover here, the basics are
-good to know. Try the following:
+good to know. Before we discuss exactly what this command does, try it out:
 
 ```shell
 $ chmod ugo-r perm-example.txt
