@@ -4,6 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Computer Touching at Reed: CSTAR's Guide"
+
+[output.html]
 git-repository-url = "https://github.com/Reed-CSTAR/guides"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/Reed-CSTAR/guides/edit/main/{path}"
