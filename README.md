@@ -48,10 +48,10 @@ This next step is quite hard to do in the terminal unless you have the [GitHub C
 
 If you successfully pushed to your branch, you should see an indicator as so:
 
-![alt text](./images/branch-pr-indicator.png)
+![The GitHub UI with the highlighted section 'mybranch had recent pushes 3 seconds ago', attached to a call-to-action button saying 'Compare & pull request.'](./images/branch-pr-indicator.png)
 
 If not, you can always explicitly click the "New Pull Request" button in the `Pulls` tab:
 
-![alt text](./images/new-pull-request.png)
+![The `pulls` tab in the GitHub UI is selected, with the suboptions 'Filters', a filter input, 'Labels,' 'Milestones,' and a primary button 'New pull request.'](./images/new-pull-request.png)
 
 When making a pull request, be sure to give it an appropriate title, which should be a brief 1-line summary of your changes, and a description, which should go as in-depth as appropriate.
