@@ -15,12 +15,13 @@ likely see your computer username in that first column and something like it in
 the next. These are the names of a **user** and of a **group,** respectively. In
 all likelihood, these are the names of *your* user and *your* group.
 
-The systems we're using --- Linux, MacOS, or WSL on Windows --- all descend from
-an operating system called UNIX, which achieved success in part due to its
-**multi-user** support. On our personal computers, we don't generally use
-multi-user features all that frequently or explicitly, but they're baked in to
-the computer so much that, in fact, every single file is **owned by** one of
-many **users,** and, simultaneously, one of many **groups.**
+The systems we're using — Linux, MacOS, or WSL on Windows — all descend from an
+operating system called [UNIX](https://en.wikipedia.org/wiki/UNIX), which
+achieved success in part due to its **multi-user** support. On our personal
+computers, we don't generally use multi-user features all that frequently or
+explicitly, but they're baked in to the computer so much that, in fact, every
+single file is **owned by** one of many **users,** and, simultaneously, one of
+many **groups.**
 
 If you want to know what your user is called, you can always run `whoami`:
 
@@ -66,9 +67,9 @@ a few commands. You can create a file with the `touch` command:
 $ touch perm-example.txt
 ```
 
-> This command has no output. One of the recurring themes in older interfaces
-> like this is that if they don't complain, you're probably safe to assume that
-> nothing's gone wrong.
+> This command has no output. One of the recurring themes in CLIs is that if
+> they don't complain, you're probably safe to assume that nothing's gone wrong.
+> You can run `echo $?` to see the **exit code** of the
 
 Now, look at how `perm-example.txt` has been created:
 
@@ -78,21 +79,21 @@ $ ls -l perm-example.txt
 ```
 
 We can see that in this case, the owning user is `atalii`, and the owning group
-is `users`. `atalii` has the `rw-` perms associated: They can read, write, and
-execute the file. Anyone in the users group can read the file but do nothing
+is `users`. `atalii` has the `rw-` perms associated: They can read from and
+write to the file. Anyone in the users group can read the file but do nothing
 else, as indicated by `r--`. And, with the same `r--` repeated, anyone outside
 the owning group can only read the file.
 
-Let's take a closer look at what exactly this all means. Reading a file isn't
-too strange a concept. It just means you're allowed to look at the contents,
-which, in this case, are empty:
+Let's take a closer look at what exactly this all means. To be able to read from
+a file means you're allowed to look at the contents, which, in this case, are
+empty:
 
 ```shell
 $ cat perm-example.txt
 ```
 
-Writing is similarly simple. To be able to write to a file means you're able to
-modify its contents. Try this:
+To be able to write to a file means you're able to modify its contents. Try
+this:
 
 ```shell
 $ echo "I can write to this file!" >> perm-example.txt
@@ -127,7 +128,7 @@ directory can `cd` into it.
 This permission system would only be so useful if you couldn't change
 permissions. Fortunately, you can use the `chmod` command to change permissions.
 While there's some more advanced usages we won't cover here, the basics are
-decently simple. Just for fun, try the following.
+good to know. Try the following:
 
 ```shell
 $ chmod ugo-r perm-example.txt
