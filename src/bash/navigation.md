@@ -8,7 +8,7 @@ The simplest command that interacts with your files is `pwd`. This stands for
 "print working directory," and if you run it, you'll see your current working
 directory:
 
-```bash
+```shell
 $ pwd
 /home/user
 ```
@@ -22,7 +22,7 @@ you're looking at some files. You can click on a directory to see the files and
 folders in that folder, and keep going however long you'd like. It's the same
 thing here. To see everything that's in your current directory, run `ls`:
 
-```bash
+```shell
 $ ls
 Desktop Documents Downloads go Mail Music Pictures Public Templates Videos
 ```
@@ -34,21 +34,21 @@ Just like in your <abbr title="Graphical user interface, as opposed to the
 command line interface (CLI) that you're currently using.">GUI</abbr> files app,
 you can change your working directory. To do so, use the `cd` command:
 
-```bash
+```shell
 $ cd Documents
 ```
 
 You'll notice that nothing happened. However, run `pwd` again and you'll see
 you're somewhere else:
 
-```bash
+```shell
 $ pwd
 /home/<your-username>/Documents
 ```
 
 As before, you can run `ls` to see all your documents:
 
-```bash
+```shell
 $ ls
 essay.txt cstar-guide.html shoelaces.pdf
 ```
@@ -59,7 +59,7 @@ The so-called **parent directory** of your working directory is referred to with
 `..`. This means that after you `cd` into `Documents`, you can get out just as
 easily:
 
-```bash
+```shell
 $ pwd
 /home/<your-username>/Documents
 $ cd ..
@@ -74,7 +74,7 @@ $ pwd
 time on it. Just like with `echo`, `ls` can take arguments. Try using the `-l`
 argument for a *long listing:*
 
-```bash
+```shell
 $ ls -l
 -rw-r--r--. 1 user group    0 Jan 24 12:13  essay.txt
 -rw-r--r--. 1 user group   45 Jan 28 19:00  cstar-guide.html
@@ -98,7 +98,7 @@ Make sure you don't already have a file named `a.txt` in your current
 working directory. This command will overwrite that file!
 </div>
 
-```bash
+```shell
 $ echo "Hello!" > a.txt
 ```
 
@@ -108,7 +108,7 @@ normally just be "Hello!") and writes it to a file instead.
 Now, if you run `ls` again, you'll see the same output as before, with one
 addition:
 
-```bash
+```shell
 $ ls
 a.txt essay.txt cstar-guide.html shoelaces.pdf
 ```
@@ -116,7 +116,7 @@ a.txt essay.txt cstar-guide.html shoelaces.pdf
 Now that you have that file saved to your disk, the `cat` command will let you
 see the contents:
 
-```bash
+```shell
 $ cat a.txt
 Hello!
 ```
@@ -126,7 +126,7 @@ with actual cats, and instead is an abbreviation of concatenate. You can pass
 two or more filenames as arguments to `cat`, and you'll be able to see them
 both, one after the other:
 
-```bash
+```shell
 $ echo "Goodbye!" > b.txt
 $ cat a.txt b.txt
 Hello!
@@ -135,14 +135,14 @@ Goodbye!
 
 Redirections work on every command, `cat` included. Try this:
 
-```bash
+```shell
 $ cat a.txt b.txt > c.txt
 ```
 
 Now, `c.txt` has the same content as `a.txt` and `b.txt` combined, and if you
 `cat` it, you'll see what you expect:
 
-```bash
+```shell
 $ cat c.txt
 Hello!
 Goodbye!
@@ -164,14 +164,14 @@ terminal, unless of course you're redirecting the output to a file.
 You probably want to get rid of `a.txt`, `b.txt`, and `c.txt` now. You can do
 that from the command line as well:
 
-```bash
+```shell
 $ rm a.txt b.txt c.txt
 ```
 
 Maybe you want to look for any other `.txt` files just in case you missed some.
 This can be achieved with a *glob:*
 
-```bash
+```shell
 $ ls *.txt
 essay.txt
 ```
@@ -183,13 +183,13 @@ essay.txt
 Now that you know how to create and remove files, it's good to do the same for
 directories. The `mkdir` command does the first:
 
-```bash
+```shell
 $ mkdir test-directory
 ```
 
 And rm does the second:
 
-```bash
+```shell
 $ rm -r test-directory
 ```
 

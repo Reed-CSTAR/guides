@@ -7,7 +7,7 @@ the software you might use on a daily basis. It doesn't work how you expect —
 you might end up using, so it's worth taking the time to play around a bit. Try
 entering this into your shell:
 
-```bash
+```shell
 $ echo "Hello!"
 Hello!
 ```
@@ -22,7 +22,7 @@ Hello!
 `echo` simply repeats whatever you give it. Despite what it looks like, there's
 actually a lot going on here. Try the next two commands:
 
-```bash
+```shell
 $ echo "Hello," "world!"
 Hello, world!
 $ echo "Hello, world!"
@@ -41,7 +41,7 @@ display all of its arguments together, putting a space in between them.
 By the way, the quotes are strictly optional. All of the commands below have the
 same output. Try them!
 
-```bash
+```shell
 $ echo "Hello," "world!"
 Hello, world!
 $ echo Hello, "world!"
@@ -67,7 +67,7 @@ turns out that bash treats everything in a line after the `#` character to be a
 comment: It's entirely ignored. You can use this to write out prose descriptions
 of what your commands do:
 
-```bash
+```shell
 $ echo "Hello" # Print a greeting to the display.
 ```
 
@@ -75,7 +75,7 @@ This command has three parts: There's the command itself (`echo`), the argument
 (`Hello`), and the comment (everything after the `#`). What if you really want
 to echo a `#`, though? Quoting will help you here:
 
-```bash
+```shell
 $ echo "Sorry. All the microchips are gone. I got #hungry."
 Sorry. All the microchips are gone. I got #hungry.
 ```

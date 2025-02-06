@@ -9,7 +9,7 @@ There's a file in your home directory called `.bash_history` on Linux and WSL or
 
 Close your terminal window and open a new one. Then, look for this file:
 
-```bash
+```shell
 $ ls -h
 ```
 
@@ -17,7 +17,7 @@ Because this filename starts with a `.`, your history file is actually a
 **hidden file,** and you need the *-h* flag in `ls` to see it. Now, once you
 know if you have `.bash_history` or `.zsh_history`, check what's in it:
 
-```bash
+```shell
 $ cat .bash_history # or .zsh_history!
 ```
 
