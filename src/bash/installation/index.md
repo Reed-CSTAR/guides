@@ -15,7 +15,7 @@ You might already have Bash installed.
 Once you've got it installed, you'll be able to open your terminal and do
 something like this:
 
-```bash
+```shell
 $ echo "Hello, world!"
 Hello, world!
 ```
