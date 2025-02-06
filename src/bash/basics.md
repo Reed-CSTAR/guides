@@ -16,8 +16,8 @@ Hello!
 > same output on your screen as you see in the text above.
 >
 > The `$` here represents your **prompt.** It might look a little different in
-> your terminal, but > it probably ends in a `$`, so that's the character most
-> commonly used to > represent it in documentation.
+> your terminal, but it probably ends in a `$`, so that's the character most
+> commonly used to represent it in documentation.
 
 `echo` simply repeats whatever you give it. Despite what it looks like, there's
 actually a lot going on here. Try the next two commands:
