@@ -9,6 +9,8 @@ All of the content in this repository is typed with [Markdown](https://en.wikipe
 
 ### Step 1. Fork & Clone
 
+> **Note**: [You will need a GitHub account](https://github.com/signup) to complete your contribution to `guides`.
+
 This will get the code from GitHub down to your computer. If you aren't a CSTAR member, you will need to [fork the Reed-CSTAR/guides repository](https://github.com/Reed-CSTAR/guides/fork) and clone the repository using [git](https://git-scm.com/):
 
 ```sh
