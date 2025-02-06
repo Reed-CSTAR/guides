@@ -1,11 +1,11 @@
-# [guides @ CSTAR](https://reed-cstar.github.io/guides/)
+# [Computer Touching at Reed: CSTAR's Guide](https://reed-cstar.github.io/guides/)
 
 This repository contains documentation on common tools that you may come across in your computer science
 education here at Reed, bundled together in a [convenient webpage](https://reed-cstar.github.io/guides/) rendered with [mdBook](https://github.com/rust-lang/mdBook).
 
 ## Contributing
 
-All of the content in this repository is typed with [Markdown](https://en.wikipedia.org/wiki/Markdown): to make contributions to this repository, follow the following steps:
+All of the content in this repository is typed with [Markdown](https://commonmark.org/help/): to make contributions to this repository, follow the following steps:
 
 ### Step 1. Fork & Clone
 
@@ -28,7 +28,7 @@ git checkout -b mybranch
 git push --set-upstream origin mybranch
 ```
 
-You should also authenticate with Git - a page in the guide will appear about this soon.
+You should also authenticate with Git — a page in the guide will appear about this soon.
 
 ### Step 2. Install mdBook
 
@@ -36,7 +36,7 @@ You will need to install [mdBook](https://rust-lang.github.io/mdBook/guide/insta
 
 ### Step 3. Preview
 
-To see your changes locally, in your terminal, run:
+To see your changes locally, run the following in your terminal:
 
 ```sh
 mdbook serve
