@@ -12,6 +12,7 @@ $ echo "Hello!"
 Hello!
 ```
 
+> [!NOTE]
 > Only type the text after the `$`. Then, press enter, and you should see the
 > same output on your screen as you see in the text above.
 >
