@@ -13,20 +13,12 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
-      - name: Install mdbook.
-        run: |
-          curl https://sh.rustup.rs -sSf | sh
-          cargo install mdbook mdbook-alerts
-          echo "~/.cargo/bin" >> $GITHUB_PATH
-      - name: Build book.
-        run: |
-          mdbook build
-      - name: Set up pages.
-        uses: actions/configure-pages@v4
-      - name: Upload artifact.
-        uses: actions/upload-pages-artifact@v3
+      - name: Download book.
+        id: download
+        uses: dawidd6/action-download-artifact@v8
         with:
-          path: "book"
+          workflow: build.yml
+          name: book
       - name: Deploy to GitHub Pages.
         id: deployment
         uses: actions/deploy-pages@v4
