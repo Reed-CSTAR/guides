@@ -36,7 +36,7 @@ jobs:
           name: 'book'
           path: 'book'
   pages:
-    needs: checks
+    needs: build
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
