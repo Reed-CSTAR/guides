@@ -12,6 +12,7 @@ directory:
 $ pwd
 /home/user
 ```
+> [!NOTE]
 > Your output may be different if you're on MacOS, but it should have a similar
 > form.
 
@@ -27,6 +28,7 @@ $ ls
 Desktop Documents Downloads go Mail Music Pictures Public Templates Videos
 ```
 
+> [!NOTE]
 > This is just some possible output. You might have some or none of these
 > folders on your own computer.
 
@@ -53,6 +55,7 @@ $ ls
 essay.txt cstar-guide.html shoelaces.pdf
 ```
 
+> [!NOTE]
 > Again, this is just example output. Yours is (presumably!) not quite the same.
 
 The so-called **parent directory** of your working directory is referred to with
@@ -81,6 +84,7 @@ $ ls -l
 -rw-r--r--. 1 user group 100M Jul 22  2024  shoelaces.pdf
 ```
 
+> [!NOTE]
 > An argument that begins with a `-` is usually called a **flag.**
 
 Reading the output right-to-left, you'll see that we have the filenames just as
@@ -93,10 +97,9 @@ file permissions.
 The `echo` command can actually be used to create files. Try, for instance, the
 following:
 
-<div class="warning">
-Make sure you don't already have a file named `a.txt` in your current
-working directory. This command will overwrite that file!
-</div>
+> [!WARNING]
+> Make sure you don't already have a file named `a.txt` in your current
+> working directory. This command will overwrite that file!
 
 ```shell
 $ echo "Hello!" > a.txt
@@ -154,6 +157,7 @@ of information about formatting, page size, and so forth that just isn't
 expressed as plain text. It's usually inadvisable to `cat` these to your
 terminal, unless of course you're redirecting the output to a file.
 
+> [!NOTE]
 > If you want, you can look for a binary file like an image or a PDF with `ls`
 > and `cd`. Then, `cat` it. You'll see a stream of nonsense pour over your
 > terminal window. Press <kbd>Ctrl+C</kbd> to interrupt the command. You
@@ -176,6 +180,7 @@ $ ls *.txt
 essay.txt
 ```
 
+> [!NOTE]
 > Your output might be empty if you have no files that match this string. Try
 > playing around with other globs. For instance, `*a*` matches any file with an
 > `a` in the name.

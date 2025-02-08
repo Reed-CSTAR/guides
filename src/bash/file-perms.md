@@ -30,6 +30,7 @@ $ whoami
 atalii
 ```
 
+> [!NOTE]
 > This is just my personal username. Yours will be different!
 
 Similarly, `groups` can tell you what groups you're a member of:
@@ -39,6 +40,7 @@ $ groups
 atalii wheel input
 ```
 
+> [!NOTE]
 > Again, this is just the output on my machine. You'll probably be a member of
 > some different groups. You don't need to worry about what each one is for
 > right now.
@@ -67,9 +69,11 @@ a few commands. You can create a file with the `touch` command:
 $ touch perm-example.txt
 ```
 
+> [!NOTE]
 > This command has no output. One of the recurring themes in CLIs is that if
 > they don't complain, you're probably safe to assume that nothing's gone wrong.
-> You can run `echo $?` to see the **exit code** of the
+> You can run `echo $?` to see the **exit code** of the process, which will
+> always be 0 if it's successful.
 
 Now, look at how `perm-example.txt` has been created:
 
@@ -99,6 +103,7 @@ this:
 $ echo "I can write to this file!" >> perm-example.txt
 ```
 
+> [!NOTE]
 > Notice that we use `>>` here instead of `>` as we used previously. The
 > difference is that `>` will always **overwrite** a file, replacing the
 > contents with whatever it wants. By contrast, `>>` **appends** to the file,
@@ -205,10 +210,9 @@ root user. So, you'll have to use `sudo` again:
 $ sudo rm perm-example.txt
 ```
 
-<div class="warning">
-The note before about being careful with rm goes double for sudo rm. If you
-make a mistake, you can use this command to really break some things.
-</div>
+> [!CAUTION]
+> The note before about being careful with rm goes double for sudo rm. If you
+> make a mistake, you can use this command to really break some things.
 
 With this and some practice, you're well on your way to being comfortable on the
 command line. Next up are some topics in configuration before covering a small

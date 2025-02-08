@@ -44,6 +44,7 @@ may want to use.
 | <kbd>↑</kbd>      | Go to the previous (less recent) item in the history. |
 | <kbd>↓</kbd>      | Go to the next (more recent) item in the history.     |
 
+> [!NOTE]
 > Most of these shortcuts are taken from a very old, decrepit piece of software
 > called **Emacs.** You can see key bindings that look like this pretty much
 > everywhere if you know where to look.
