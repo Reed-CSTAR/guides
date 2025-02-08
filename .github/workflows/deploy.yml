@@ -18,7 +18,7 @@ jobs:
         uses: dawidd6/action-download-artifact@v8
         with:
           workflow: build.yml
-          name: book
+          name: github-actions
       - name: Deploy to GitHub Pages.
         id: deployment
         uses: actions/deploy-pages@v4
