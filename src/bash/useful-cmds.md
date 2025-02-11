@@ -9,8 +9,8 @@ Unless otherwise noted, these commands work in roughly the same way. They take
 some input from a file specified as a command line argument, perform some
 operation, and output the result to the console. If you're ever unsure how a
 specific command works, try running it with `-h` to get a help message. If that
-doesn't work, try `--help`. If *that* doesn't work, try `help`. If even that
-doesn't work, it's probably best to uninstall the tool and run.
+doesn't work, try `--help`. If *that* doesn't work, see the section on [getting
+help](/).
 
 Once you're done familiarizing yourself with the essentials, go on to learn some
 [scripting techniques](./scripting.html).
