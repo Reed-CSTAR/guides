@@ -133,7 +133,7 @@ For some reason, let's say you really like `$FOO` and want to save it:
 
 ```console
 $ export MY_FAV_VAR="My favorite variable is: $FOO."
-$ echo "MY_FAV_VAR"
+$ echo "$MY_FAV_VAR"
 My favorite variable is: bar
 ```
 
