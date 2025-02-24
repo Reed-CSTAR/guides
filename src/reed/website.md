@@ -6,7 +6,7 @@
 
 Personal Reed webpages are available at `https://people.reed.edu/~yourusername`. To edit this, you can connect to your website's files using [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) (Secure File Transfer Protocol).
 
-## SFTP Client
+## Installing a SFTP Client
 
 ## Setting up your website
 
