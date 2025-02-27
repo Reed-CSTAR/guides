@@ -4,7 +4,7 @@
 - [Bash](./bash/overview.md)
   - [Installation](./bash/installation/index.md)
     - [Linux](./bash/installation/linux.md)
-    - [MacOS]()
+    - [MacOS](./bash/installation/macos.md)
     - [Windows]()
   - [Basics](./bash/basics.md)
   - [Navigation](./bash/navigation.md)
