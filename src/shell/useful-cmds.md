@@ -38,3 +38,20 @@ You'll run these less often, but it can still be good to know they exist.
 | `wc -l` | Count the number of lines in stdin or from a file. |
 | `wc -c` | Count the number of characters in stdin or from a file. |
 | `wc -w` | Count the number of words in stdin or from a file. |
+
+## Some Options
+
+A lot of the above commands are very old (`cat`, e.g., descends from 1971), and
+therefore has some characteristics you may or may not like. These are really
+beyond the scope of the basics here, but if you find yourself curious, there are
+some potentially preferable replacements for the old tools if you're looking to
+play around a bit:
+
+| Command   | Replacement |
+|-----------|-------------|
+| `cat`     | `bat`       |
+| `cd`      | `zoxide`    |
+| `find`    | `fd`        |
+| `grep`    | `ripgrep`   |
+| `ls`      | `eza`       |
+| `nano`    | `micro`     |
