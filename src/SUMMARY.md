@@ -1,7 +1,7 @@
 # Summary
 
 - [Intro](./intro.md)
-- [Bash](./bash/overview.md)
+- [Shell](./shell/overview.md)
   - [Installation](./bash/installation/index.md)
     - [Linux](./bash/installation/linux.md)
     - [MacOS](./bash/installation/macos.md)

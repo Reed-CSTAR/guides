@@ -1,6 +1,6 @@
 # Basics
 
-Bash operates under some fairly foreign principles when compared to the rest of
+The shell operates under some fairly foreign principles when compared to the rest of
 the software you might use on a daily basis. It doesn't work how you expect —
 <kbd>Ctrl+C</kbd> doesn't copy and <kbd>Ctrl+V</kbd> doesn't paste, for instance
 — but it's got plenty of conventions that are carried through into other tools
@@ -17,7 +17,7 @@ Hello!
 > same output on your screen as you see in the text above.
 >
 > The `$` here represents your **prompt.** It might look a little different in
-> your terminal, but it probably ends in a `$`, so that's the character most
+> your terminal, but many default prompts end in a `$`, so that's the character most
 > commonly used to represent it in documentation.
 
 `echo` simply repeats whatever you give it. Despite what it looks like, there's
@@ -31,7 +31,7 @@ Hello, world!
 ```
 
 These two commands are different, but they produce the same result. This comes
-down to two very important concepts in Bash that you'll come into contact with
+down to two very important concepts in the shell that you'll come into contact with
 again and again: **commands** and **arguments.** In the above, we can say that
 **you ran the command** `echo "Hello!"`, but we can also say that **the command
 you ran** was `echo`, and the **argument** was `Hello!`. This is the difference
@@ -64,7 +64,7 @@ $ echo Sorry. All the microchips are gone. I got #hungry.
 ```
 
 You'll notice that the final `#hungry` doesn't display! What's going on here? It
-turns out that bash treats everything in a line after the `#` character to be a
+turns out that the shell treats everything in a line after the `#` character to be a
 comment: It's entirely ignored. You can use this to write out prose descriptions
 of what your commands do:
 

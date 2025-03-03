@@ -1,7 +1,7 @@
 # Line Editing
 
 As you might have noticed, using the command line can involve repeating yourself
-a lot. Bash itself actually helps you avoid most of the manual repetition by
+a lot. The shell itself actually helps you avoid most of the manual repetition by
 keeping track of your **command history.** You can see this for yourself:
 There's a file in your home directory called `.bash_history` on Linux and WSL or
 `.zsh_history` on MacOS which stores all the commands you've run in a given
@@ -24,7 +24,7 @@ $ cat .bash_history # or .zsh_history!
 By the way, you almost certainly have some other hidden files in this directory.
 Recall that the command for seeing those is `ls -h`, but you've already run it.
 Press the up arrow to cycle through your previous commands. First you'll see
-`cat .bash_history`, then `ls -h`. Bash will let you get through your entire
+`cat .bash_history`, then `ls -h`. The shell will let you get through your entire
 history this way! Play around with the command line a little bit. Scroll up,
 modify a command, and run it. To modify a command, your normal keyboard
 shortcuts won't all work. You can likely use the arrow keys to move your cursor
