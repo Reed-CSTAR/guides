@@ -18,4 +18,4 @@
   - [Polytopia](./reed/polytopia.md)
   - [Peggy]()
   - [Patty]()
-  - [people.reed.edu]()
+  - [people.reed.edu](./reed/website.md)
