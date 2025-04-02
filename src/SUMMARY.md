@@ -12,7 +12,7 @@
   - [File Permissions](./shell/file-perms.md)
   - [Useful Commands](./shell/useful-cmds.md)
   - [Scripting](./shell/scripting.md)
-  - [SSH]()
+  - [SSH](./shell/ssh.md)
   - [Git]()
 - [Reed](./reed/overview.md)
   - [Polytopia](./reed/polytopia.md)
