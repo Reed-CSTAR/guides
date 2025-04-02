@@ -16,6 +16,5 @@
   - [Git]()
 - [Reed](./reed/overview.md)
   - [Polytopia](./reed/polytopia.md)
-  - [Peggy]()
-  - [Patty]()
+  - [Machines](./reed/machines.md)
   - [people.reed.edu](./reed/website.md)
