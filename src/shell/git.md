@@ -18,7 +18,7 @@ you'll use `git clone`, and in the second, you'll use `git init.`
 
 As an example of the first, you can get the sources for this book with this:
 
-```
+```shell
 $ git clone https://github.com/reed-cstar/guides
 
 Cloning into 'guides'...
@@ -35,3 +35,52 @@ them, you can make a **commit**. A commit is the unit by which Git records
 changes made to some files. Alongside the content of those changes (including
 creations, deletions, and modifications), it also records the author, the
 date, and also some optional further metadata regarding the changes.
+
+Before you start **committing** code, you'll need to tell git who you are.
+Git provides a clear interface for this with the **config** subcommand. Try
+the following, replacing the quoted vale `Your Name` with your name, and
+`your.email@example.com` with your email:
+
+```shell
+$ git config --global user.name 'Your Name'
+$ git config --global user.email 'your.email@example.com'
+```
+
+Note the use of the `--global` flag: This instructs git to store a default
+value for these settings across all repositores. If you leave it out, git
+will associate your name and email only with the repository in your current
+working directory, and future invocations of git will use this value to
+override any global value that may or may not be set.
+
+Now that git is sufficiently configured and you're in a repository, you can
+make some changes to the files and add them to the **staging area** with the **add subcommand:**
+
+```shell
+$ git add ./path/to/modified/files
+```
+
+> [!NOTE]
+>
+> You'll often see `git add .`: If run from the root of your repository,
+> this'll add all changes to the staging area.
+
+With your changes added, the **commit subcommand** will allow you to add them
+to version control:
+
+```shell
+$ git commit
+```
+
+> [!NOTE]
+>
+> If you aren't currently in in a repository, `git commit` will tell you with
+> the only moderately cryptic error message:
+> ```
+> fatal: not a git repository (or any of the parent directories): .git
+> ```
+
+You'll see that git brings up a **text editor** wherein you can write a
+commit message. Most likely, this'll be a text editor called `nano` --- git
+will run whatever command you specify in the `$VISUAL` environment variable.
+Regardless, writing some text, saving it, and exiting (via
+<kbd>Ctrl</kbd>+<kbd>x</kbd> in Nano) will be enough to create a commit, and you'll be dropped back in your shell.
