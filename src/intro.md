@@ -18,6 +18,8 @@ internet. If you've got questions about how anything techy works, you might want
 to consult:
 
 + Julia Evans! She's really good at [writing zines](https://wizardzines.com/).
++ The [Pro Git book](https://git-scm.com/book/en/v2) provides a good,
+  methodical explanation of Git.
 + man pages :(
 
 As a final introductory note, don't be afraid to ask for help. A lot of
