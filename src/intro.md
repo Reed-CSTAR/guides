@@ -18,6 +18,9 @@ internet. If you've got questions about how anything techy works, you might want
 to consult:
 
 + Julia Evans! She's really good at [writing zines](https://wizardzines.com/).
++ Anna Ritz (biology) directs her students to this [command line
+  bootcamp](https://clboot.bioinformatics.guide/) for a thorough, interactive
+  guide to day-to-day terminal tasks.
 + The [Pro Git book](https://git-scm.com/book/en/v2) provides a good,
   methodical explanation of Git.
 + man pages :(
