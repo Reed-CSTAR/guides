@@ -28,8 +28,10 @@ my-laptop
 ```
 
 > [!NOTE]
-> This is specific to my computer, and even then, only works when I'm on the
-> Reed network. We'll cover why this is later on.
+> Some things here, like my hostname, are specific to my computer. Others,
+> like, `empanada.reed.edu`, are only accessible on the Reed network. If you'd
+> like to follow along, send an email to CSTAR to get access to [some
+> machines](../../reed/machines.html).
 
 Notice a new command: `hostname` tells you the name of the device your shell is
 running in. Every machine is given one of these names, and it's helpful to have
