@@ -13,7 +13,7 @@
   - [Useful Commands](./shell/useful-cmds.md)
   - [Scripting](./shell/scripting.md)
   - [SSH](./shell/ssh.md)
-  - [Git](./shell/git.md)
+- [Git](./git.md)
 - [Reed](./reed/overview.md)
   - [Machines](./reed/machines.md)
   - [people.reed.edu](./reed/website.md)
