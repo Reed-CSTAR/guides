@@ -15,6 +15,5 @@
   - [SSH](./shell/ssh.md)
   - [Git](./shell/git.md)
 - [Reed](./reed/overview.md)
-  - [Polytopia](./reed/polytopia.md)
   - [Machines](./reed/machines.md)
   - [people.reed.edu](./reed/website.md)
