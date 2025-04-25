@@ -6,7 +6,21 @@ def fixupsection(sect):
     if 'Chapter' not in sect:
         return sect
 
-    sect['Chapter']['content'] = sect['Chapter']['content'].replace('---', '&mdash;')
+    content = sect['Chapter']['content']
+    
+    in_code_fence = False
+    new_content = ""
+    for line in content.split('\n'):
+        if line.startswith('```'):
+            in_code_fence = not in_code_fence
+
+        if not in_code_fence:
+            line = line.replace('---', '&mdash;')
+
+        new_content += f'{line}\n'
+
+    sect['Chapter']['content'] = new_content
+    sect['Chapter']['sub_items'] = [fixupsection(sect) for sect in sect['Chapter']['sub_items']]
 
     return sect
 
