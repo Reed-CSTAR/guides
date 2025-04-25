@@ -22,5 +22,5 @@ as appropriate or simply explore:
 + 221 is taught with [C, C++, and Assembly](c-and-asm/overview.html).
 + You will encounter other toolchains; e.g., Jupyter notebooks for Deep
   Learning, JS (or possibly TypeScript soon!) for graphics, and OCaml for
-  Programming Languages. If you have toolchain quesstions, [let us
+  Programming Languages. If you have toolchain questions, [let us
   know.](https://github.com/Reed-CSTAR/guides/issues)
