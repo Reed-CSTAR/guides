@@ -29,4 +29,7 @@ As a final introductory note, don't be afraid to ask for help. A lot of
 computer-touching knowledge is really just experience. The more times you see
 something, the more likely it'll be to click.
 
-Also, if you have questions, yell at us! \[TODO: contact info\]
+Also, if you have questions, yell at us! Issues pertaining to this guide can be
+sent to [GitHub issues](https://github.com/Reed-CSTAR/guides/issues), and,
+along with more general questions, can be [emailed to
+us.](mailto:CSTAR@groups.reed.edu)
