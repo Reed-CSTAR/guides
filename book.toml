@@ -10,4 +10,11 @@ git-repository-url = "https://github.com/Reed-CSTAR/guides"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/Reed-CSTAR/guides/edit/main/{path}"
 
+[preprocessor.typography]
+command = "./scripts/typographic-fixes.py"
+
 [preprocessor.alerts]
+# This injects <style> tags directly into the content; we don't want the
+# typography script to have to parse CSS to avoid mangling it.
+after = [ "typography" ]
+
