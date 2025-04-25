@@ -1,6 +1,6 @@
 # Summary
 
-- [Intro](./intro.md)
+- [Preface](./preface.md)
 - [Shell](./shell/overview.md)
   - [Installation](./shell/installation/index.md)
     - [Linux](./shell/installation/linux.md)
