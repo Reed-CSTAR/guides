@@ -14,7 +14,10 @@ def fixupsection(sect):
         if line.startswith('```'):
             in_code_fence = not in_code_fence
 
-        if not in_code_fence:
+        # Hacky quick fix to keep this script from messing up tables and code
+        # blocks. We'll use a proper markdown parser eventually.
+        if not line.startswith('|') \
+           and not in_code_fence:
             line = line.replace('---', '&mdash;')
 
         new_content += f'{line}\n'
