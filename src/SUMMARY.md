@@ -24,5 +24,6 @@
     - [Using Dependencies](./writing-code/python/deps.md)
 - [Git](./git.md)
 - [Reed](./reed/overview.md)
-  - [Machines](./reed/machines.md)
+  - [Machines](./reed/machines/overview.md)
+      - [Services](./reed/machines/services.md)
   - [people.reed.edu](./reed/website.md)
