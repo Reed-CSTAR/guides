@@ -25,5 +25,6 @@
 - [Git](./git.md)
 - [Reed](./reed/overview.md)
   - [Machines](./reed/machines/overview.md)
+      - [Accounts](./reed/machines/accounts.md)
       - [Services](./reed/machines/services.md)
   - [people.reed.edu](./reed/website.md)
