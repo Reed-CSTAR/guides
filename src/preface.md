@@ -23,6 +23,9 @@ to consult:
   guide to day-to-day terminal tasks.
 + The [Pro Git book](https://git-scm.com/book/en/v2) provides a good,
   methodical explanation of Git.
++ [Zero to Nix](https://zero-to-nix.com/) describes the Nix package manager, a
+  popular package manager for students here to use that's also installed on all
+  of the Reednet machines.
 + man pages :(
 
 As a final introductory note, don't be afraid to ask for help. A lot of
