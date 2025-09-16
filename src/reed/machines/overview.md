@@ -1,7 +1,7 @@
 # Machines
 
 Reed provides some machines for you to use. Some of these can be accessed in
-person, but others are best accessed over [ssh](/shell/ssh.md).
+person, but others are best accessed over [ssh](../../shell/ssh.md).
 
 > [!NOTE]
 > To get access to all of these machines, email

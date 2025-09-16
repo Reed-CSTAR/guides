@@ -36,3 +36,7 @@ Also, if you have questions, yell at us! Issues pertaining to this guide can be
 sent to [GitHub issues](https://github.com/Reed-CSTAR/guides/issues), and,
 along with more general questions, can be [emailed to
 us.](mailto:CSTAR@groups.reed.edu)
+
+If you want to help us write guides, let us know! If you're familiar with git, we
+also accept contributions through the
+[guides](https://github.com/Reed-CSTAR/guides) repository.
