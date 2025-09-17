@@ -57,3 +57,7 @@ as per usual.
     require some special treatment. My (Tali's) suggestion is to reserve
     personal machines for servers that don't require SSH access by individuals,
     where we can get away just with a Polytopia admin account.
+
+## Updating the Machines
+
+Major version updates will happen during school breaks.
