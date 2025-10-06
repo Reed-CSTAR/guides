@@ -40,3 +40,7 @@ us.](mailto:CSTAR@groups.reed.edu)
 If you want to help us write guides, let us know! If you're familiar with git, we
 also accept contributions through the
 [guides](https://github.com/Reed-CSTAR/guides) repository.
+
+> Using a computer is like Hollow Knight. Sometimes you just have to lock in.
+>
+> — Dylan Matthisen
