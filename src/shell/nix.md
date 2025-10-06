@@ -38,4 +38,4 @@ installed.
   removing 'flake:nixpkgs#legacyPackages.x86_64-linux.hello'
   ```
 
-For more information about Nix, you can visit https://zero-to-nix.com.
+For more information about Nix, you can look at [Zero to Nix](https://zero-to-nix.com).
