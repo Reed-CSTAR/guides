@@ -13,6 +13,7 @@
   - [Useful Commands](./shell/useful-cmds.md)
   - [Scripting](./shell/scripting.md)
   - [SSH](./shell/ssh.md)
+  - [FTP](./shell/ftp.md)
   - [Nix Cheatsheet](./shell/nix.md)
 - [Writing Code](./writing-code/overview.md)
   - [Working with Text Editors]()
