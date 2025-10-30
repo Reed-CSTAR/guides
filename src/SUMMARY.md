@@ -30,4 +30,4 @@
       - [Accounts](./reed/machines/accounts.md)
       - [Services](./reed/machines/services.md)
       - [Procedures](./reed/machines/procedures.md)
-  - [people.reed.edu]()
+  - [people.reed.edu](./reed/tildeserver.md)
