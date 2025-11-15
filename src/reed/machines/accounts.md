@@ -3,10 +3,7 @@
 At Reed's instruction, your username is fixed at account creation to be your
 Kerberos username. Then, your password is set on Polly and copied out to
 everywhere else. Don't try to change your password on other machines; always
-SSH into Polly.[^web]
-
-[^web]: At some point, I (Tali) might make a web app to change your password
-    without SSH'ing. If this happens, I'll link it.
+SSH into Polly or use the [web app](https://polly.reed.edu/pwwidget).
 
 ## Graduation
 
