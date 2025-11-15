@@ -3,6 +3,21 @@
 > [!NOTE]
 > This page is meant primarily for CSTAR members administering these machines.
 
+## Adding Accounts
+
+In the reednet repo:
+
+1. Add a user to `users/genUsersConf.py`. Read the `User` class to see
+   available options.
+2. Run `users/genUsersConf.py`, redirecting output to `users.yaml`.
+3. Run the playbook:
+
+   ```sh
+   ansible-playbook -k -K -u polytopia -i inventory.yaml playbooks/users.yaml.
+   ```
+4. Verify that the playbook worked.
+5. Commit your changes as `users: add {{ userName }}`.
+
 ## Authentication Mechanisms
 
 We are not able to tie into Kerberos for a 'proper' SSO. Instead, we run a
