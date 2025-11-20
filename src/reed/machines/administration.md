@@ -73,7 +73,10 @@ as per usual.
 
 ### Updating the Machines
 
-Major version updates will happen during school breaks.
+Major version updates will happen during school breaks. Minor updates (`apt
+up{date,grade}` and such, as well as `nix upgrade-nix`) are applied weekly,
+with possible downtime if a service requires a restart. Reboot any machine if
+its kernel is updated.
 
 # Monitoring
 
