@@ -21,8 +21,5 @@ These services are all accessed via an SSO login *distinct from your normal
 Reed credentials.* You can test your login (from a device on the Reed network)
 by logging into [Polly](https://polly.reed.edu) over the web. Your username and
 password for this SSO system is the same as that which you'd use to log in to
-Polly over SSH.[^polly-pass]
-
-[^polly-pass]: This isn't strictly true right now. If you change your password,
-    you'll need to ping a CSTAR member (for now, Tali) to get everything to
-    work. I (Tali) will make this automatic soon!
+Polly over SSH. You can change your credentials
+[here](https://polly.reed.edu/pwwidget).
