@@ -24,7 +24,8 @@ jobs:
         run: |
           curl https://sh.rustup.rs -sSf > rustup.sh
           sh rustup.sh -y
-          cargo install mdbook mdbook-alerts
+          cargo install mdbook --version 0.4.49 # This is the version that we have on nixpkgs
+          cargo install mdbook-alerts
           echo "~/.cargo/bin" >> $GITHUB_PATH
       - name: Build book.
         run: mdbook build
