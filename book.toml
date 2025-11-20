@@ -1,7 +1,6 @@
 [book]
 authors = ["Tali Auster"]
 language = "en"
-multilingual = false
 src = "src"
 title = "Computer Touching at Reed: CSTAR's Guide"
 
