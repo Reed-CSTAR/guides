@@ -29,5 +29,5 @@
   - [Machines](./reed/machines/overview.md)
       - [Accounts](./reed/machines/accounts.md)
       - [Services](./reed/machines/services.md)
-      - [Procedures](./reed/machines/procedures.md)
+      - [Administration](./reed/machines/administration.md)
   - [people.reed.edu](./reed/tildeserver.md)
