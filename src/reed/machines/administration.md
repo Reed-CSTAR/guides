@@ -74,3 +74,10 @@ as per usual.
 ### Updating the Machines
 
 Major version updates will happen during school breaks.
+
+# Monitoring
+
+Quatsch runs Prometheus and scrapes the `node-exporter` running on itself and
+the other machines. No Grafana or equivalent is currently configured, though
+you can use Prometheus' built-in web server for simple visualization and manual
+PromQL querying.
