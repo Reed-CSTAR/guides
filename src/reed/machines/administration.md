@@ -7,18 +7,19 @@
 
 ### Adding Accounts
 
-In the reednet repo:
+Accounts are stored in a secret YAML file generated with a half-secret Python
+script. Add the user to the secret list of users in `genUsersConf.py`. (If
+setting up in person, you can ask the user for an initial password they'd
+prefer. Otherwise, the default is `changeme`.) Run this script (it'll import
+the public `users.py` file), and redirect the output to the secret
+`users.yaml`. Then, run the applicable playbook:
 
-1. Add a user to `users/genUsersConf.py`. Read the `User` class to see
-   available options.
-2. Run `users/genUsersConf.py`, redirecting output to `users.yaml`.
-3. Run the playbook:
+```sh
+ansible-playbook -k -K -u polytopia -i inventory.yaml playbooks/users.yaml.
+```
 
-   ```sh
-   ansible-playbook -k -K -u polytopia -i inventory.yaml playbooks/users.yaml.
-   ```
-4. Verify that the playbook worked.
-5. Commit your changes as `users: add {{ userName }}`.
+Verify that the playbook worked as intended by SSH'ing into Polly. Updates to
+the rest of the systems may take a few minutes.
 
 ### Authentication Mechanisms
 
